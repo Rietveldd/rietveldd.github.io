@@ -1,0 +1,139 @@
+body {
+	margin:0;
+	height: 500px;
+	width: 100%;
+	background-color: #ededed;
+	position: relative;
+
+
+}
+
+header{
+	background-color: #ffffff;
+	height: 100px;
+	width: 100%;
+	text-align:right;
+}
+
+.nameContainer {
+	margin: 0 0 0 40px;
+	display: inline;
+	float: left;
+	height:100px;
+	width:300px;
+	background-color: #4aaaa5;
+	
+
+}
+.nameContainer h1 {
+	font-size: 30px;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+
+
+
+
+}
+
+nav ul{
+	margin: 0;
+	display: inline;
+}
+
+nav ul li{
+	list-style-type: none;
+	text-align: right;
+	display: inline-block;
+	padding:10px;
+	background-color: white;
+	margin:40px 20px 0 0;
+	font-family: arial;
+	font-size: 24px;
+
+
+}
+nav ul li a {
+	text-decoration: none;
+	color: grey;
+
+}
+
+.Content {
+	background-color: #ffffff;
+	height: 100%;
+	width: 750px;
+	overflow:;
+	padding:;
+	margin:30px;
+	float:left;
+	overflow: auto;
+}
+.Content h2 {
+	margin :20px;
+	color:#4aaaa5;
+
+}
+
+.Content img {
+	margin: 20px 40px 20px 20px;
+	float: left;
+
+}
+
+.Content p {
+	margin:30px 30px 0px 30px;
+	float: left;
+	height:300px;
+	width:250px;
+	color: grey;
+	font-size: 18px;
+	text-indent: 50px;
+}
+
+.Connect {
+	height:200px; 
+	width:270px;
+	margin:30px;
+	background-color: #ffffff;
+	float: left;
+}
+.Connect h2 {
+	text-align: center;
+	color:#4aaaa5;
+}
+.bar1 {
+	background-color: lightgrey;
+	height:3px;
+	width:100%;
+	position: absolute;
+
+}
+
+.bar2{
+	background-color: #4aaaa5;
+	height:10px;
+	width:100%;
+	position: absolute;
+	left: 0;
+	bottom: -228px;
+}
+
+.copyright {
+	clear:both;
+	text-align: center;
+	background-color: #666666;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	left:0;
+	bottom:0;
+
+}
+
+.copyright p {
+	margin-top:50px;
+	color: lightgrey;
+
+}
