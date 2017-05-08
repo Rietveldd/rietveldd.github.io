@@ -1,9 +1,16 @@
+html {
+	height: 1400px; 
+	width: auto;
+
+}
+
+
 body {
-	margin:0;
-	height: 500px;
-	width: 100%;
+	margin: 0;
+	height: 1400px;
+	width: auto;
 	background-color: #ededed;
-	position: relative;
+	
 
 
 }
@@ -13,14 +20,15 @@ header{
 	height: 100px;
 	width: 100%;
 	text-align:right;
+	border-bottom: 3px solid lightgrey;
 }
 
 .nameContainer {
 	margin: 0 0 0 40px;
 	display: inline;
 	float: left;
-	height:100px;
-	width:300px;
+	height: 100px;
+	width: 300px;
 	background-color: #4aaaa5;
 	
 
@@ -31,9 +39,6 @@ header{
 	color: white;
 	text-align: center;
 	margin-top: 40px;
-
-
-
 
 }
 
@@ -46,9 +51,9 @@ nav ul li{
 	list-style-type: none;
 	text-align: right;
 	display: inline-block;
-	padding:10px;
+	padding: 10px;
 	background-color: white;
-	margin:40px 20px 0 0;
+	margin: 40px 20px 0 0;
 	font-family: arial;
 	font-size: 24px;
 
@@ -60,75 +65,172 @@ nav ul li a {
 
 }
 
-.Content {
+.content {
 	background-color: #ffffff;
-	height: 100%;
+	height:800px; /*Change*/
 	width: 750px;
-	overflow:;
-	padding:;
-	margin:30px;
-	float:left;
+	margin: 30px;
+	float: left;
 	overflow: auto;
 }
-.Content h2 {
-	margin :20px;
-	color:#4aaaa5;
-
+.content h2 {
+	margin : 20px;
+	color: #4aaaa5;
+	text-decoration: underline;
+	text-decoration-color: lightgrey;
 }
 
-.Content img {
+.content img {
 	margin: 20px 40px 20px 20px;
 	float: left;
 
 }
 
-.Content p {
-	margin:30px 30px 0px 30px;
+.content p {
+	margin: 20px 40px 20px 20px;
 	float: left;
-	height:300px;
-	width:250px;
+	height: 300px;
+	width: 250px;
 	color: grey;
 	font-size: 18px;
 	text-indent: 50px;
 }
+.content2 {
+	background-color: #ffffff;
+	height: 1100px; /*Change*/
+	width: 750px;
+	margin: 30px 0px 0px 30px;
+	float: left;
+	overflow: auto;
+	position: absolute;
 
-.Connect {
-	height:200px; 
-	width:270px;
-	margin:30px;
+	
+}
+.content2 h2 {
+	margin :20px;
+	color: #4aaaa5;
+	text-decoration: underline;
+	text-decoration-color: lightgrey;
+	
+}
+
+.col {
+	float: left;
+	margin: 20px 20px 20px 40px;
+}
+
+.colp {
+	position: relative;
+	height: 60px;
+	width: 300px;
+	color: grey;
+	background-color: lightblue;
+	font-size: 20px;
+	text-align: center;
+	bottom: 120px;
+	padding-top: 8px;
+
+}
+
+.content3 {
+	background-color: #ffffff;
+	height: 700px; /*Change*/
+	width: 750px;
+	padding:;
+	margin: 30px;
+	overflow: auto;
+	float: left;
+}
+.content3 h2 {
+	margin :20px;
+	color: #4aaaa5;
+	text-decoration: underline;
+	text-decoration-color: lightgrey;
+}
+
+.content3 img {
+	margin: 20px 20px 20px 40px;
+	float: left;
+
+}
+
+.contactform {
+	font-size: 30px;
+	font-family: arial;
+
+}
+.contactform label {
+	display: block;
+	color: grey;
+
+}
+
+.contactform input {
+	width: 500px;
+	height: 25px;
+
+}
+.contactform textarea {
+	height: 300px;
+	width: 500px;
+
+}
+fieldset {
+	border: none;
+}
+
+.btn {
+	width: 10%;
+	
+}
+
+.connect {
+	height: 200px; 
+	width: 270px;
+	margin: 30px;
 	background-color: #ffffff;
 	float: left;
 }
-.Connect h2 {
+.connect h2 {
 	text-align: center;
-	color:#4aaaa5;
-}
-.bar1 {
-	background-color: lightgrey;
-	height:3px;
-	width:100%;
-	position: absolute;
+	color: #4aaaa5;
 
 }
+.connect a {
+	display: inline;
+	padding: 1%;
 
-.bar2{
-	background-color: #4aaaa5;
-	height:10px;
-	width:100%;
-	position: absolute;
-	left: 0;
-	bottom: -228px;
+}
+.connect2 {
+	height: 200px; 
+	width: 270px;
+	margin:30px 330px 0px 0px;
+	background-color: #ffffff;
+	float: right;
+}
+.connect2 h2 {
+	text-align: center;
+	color: #4aaaa5;
+
+}
+.connect2 a {
+	display: inline;
+	padding: 1%;
+
 }
 
 .copyright {
-	clear:both;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0; 
+	clear: both;
 	text-align: center;
 	background-color: #666666;
 	height: 100px;
-	width: 100%;
-	position: fixed;
-	left:0;
-	bottom:0;
+	width: auto;
+	border-top: 10px solid #4aaaa5; 
+
 
 }
 
