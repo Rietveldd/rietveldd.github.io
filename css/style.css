@@ -134,7 +134,7 @@ nav ul li a {
 
 .content3 {
 	background-color: #ffffff;
-	height: 700px; /*Change*/
+	height: 700px; /*Changed*/
 	width: 750px;
 	padding:;
 	margin: 30px;
@@ -237,5 +237,112 @@ fieldset {
 .copyright p {
 	margin-top:50px;
 	color: lightgrey;
+
+}
+
+/*start of media querys*/
+/*this size is dependent on the ipad setting on the chrome resizing tool*/
+@media only screen and (max-width: 1024px) {
+	header {
+		width: 100%;
+
+	}
+	.content {
+		width: 950px;
+		text-align: center;
+
+	}
+	.info {
+		margin-left: 120px;
+		text-align: center;
+	}
+	.content2 {
+		margin-left: 120px;
+	}
+	.content3 {
+		width: 950px;
+	}
+	.content3 h2{
+		text-align: center;
+	}
+	.copyright {
+		width: 100%;
+	}
+	.connect {
+		width: 950px;
+
+
+	}
+	#img{
+		margin-left: 350px;
+	}
+	.contactform {
+		margin-left: 200px;
+	}
+
+
+}
+/*this size is dependent on the iphone setting on the chrome resizing tool*/
+@media only screen and (max-width: 640px) {
+	header {
+		width: 100%;
+		height: auto;
+		text-align: center;
+
+	}
+	.nameContainer {
+		text-align: center;
+		float: none;
+		background-color: blue;
+
+	}
+	.nameContainer h1{
+		color: black;
+	}
+	.content {
+		width: 600px;
+		margin:30px 15px 30px 15px;
+
+	}
+	.copyright {
+		width: 100%;
+	}
+	.connect {
+		width: 600px;
+		margin:30px 15px 30px 15px;
+
+
+	}
+	#img{
+		margin-left: 180px;
+	}
+	.content3 {
+		width: 600px;
+		margin:30px 15px 30px 15px;
+	}
+	.content2{
+		width: 600px;
+		overflow: none;
+		margin:30px 15px 30px 15px;
+
+	}
+	.content2 h2{
+		text-align: center;
+
+	}
+	.col {
+		width:66%;
+		margin-left: 180px;
+	}
+	.contactform {
+		margin: 30px 20px 30px 20px;
+	}
+
+
+
+
+
+
+
 
 }
